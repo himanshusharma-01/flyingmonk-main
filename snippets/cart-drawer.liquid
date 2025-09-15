@@ -539,20 +539,14 @@
           </small>
         </div>
 
-        <!-- CTAs -->
-
-        <!-- Promotional Messages -->
-        <div class="cart-drawer__promotions" style="margin-bottom: 1.5rem; padding: 1rem; background-color: #f8f9fa; border-radius: 8px; border-left: 4px solid #25d366;">
-          <div style="font-size: 1.4rem; font-weight: 600; color: #2c3e50; margin-bottom: 0.8rem;">
-            🎉 Special Offers
-          </div>
-          <div style="font-size: 1.2rem; color: #27ae60; margin-bottom: 0.5rem;">
-            ✓ Get ₹50 off on any online payment
-          </div>
-          <div style="font-size: 1.2rem; color: #27ae60;">
-            ✓ Get extra ₹50 off on buying any 2 products
+        <!-- Top Promotional Message -->
+        <div class="cart-drawer__promo-top" style="margin-bottom: 1rem; padding: 0.8rem; background: linear-gradient(135deg, #25d366, #20b038); border-radius: 6px; text-align: center; box-shadow: 0 2px 8px rgba(37, 211, 102, 0.3);">
+          <div style="font-size: 1.3rem; font-weight: 700; color: white; text-shadow: 0 1px 2px rgba(0,0,0,0.2);">
+            💳 Get ₹50 OFF on Online Payment
           </div>
         </div>
+
+        <!-- CTAs -->
 
         <div class="cart__ctas" {{ block.shopify_attributes }}>
           <button
@@ -567,6 +561,13 @@
           >
             {{ 'sections.cart.checkout' | t }}
           </button>
+        </div>
+
+        <!-- Bottom Promotional Message -->
+        <div class="cart-drawer__promo-bottom" style="margin-top: 1rem; padding: 0.8rem; background: linear-gradient(135deg, #e74c3c, #c0392b); border-radius: 6px; text-align: center; box-shadow: 0 2px 8px rgba(231, 76, 60, 0.3);">
+          <div style="font-size: 1.3rem; font-weight: 700; color: white; text-shadow: 0 1px 2px rgba(0,0,0,0.2);">
+            🛍️ Get Extra ₹50 OFF on 2+ Products
+          </div>
         </div>
       </div>
     </div>
