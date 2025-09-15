@@ -79,6 +79,12 @@
           class=" is-empty"
         {% endif %}
       >
+       <!-- Bottom Promotional Message -->
+       <div class="cart-drawer__promo-bottom" style="margin: 1rem 0; padding: 0.8rem; background: linear-gradient(135deg, #e74c3c, #c0392b); border-radius: 6px; text-align: center; box-shadow: 0 2px 8px rgba(231, 76, 60, 0.3);">
+        <div style="font-size: 1.3rem; font-weight: 700; color: white; text-shadow: 0 1px 2px rgba(0,0,0,0.2);">
+          🛍️ Get Extra ₹50 OFF on 2+ Products
+        </div>
+      </div>
         <form
           action="{{ routes.cart_url }}"
           id="CartDrawer-Form"
@@ -455,12 +461,7 @@
         </form>
       </cart-drawer-items>
 
-      <!-- Bottom Promotional Message -->
-      <div class="cart-drawer__promo-bottom" style="margin: 1rem 0; padding: 0.8rem; background: linear-gradient(135deg, #e74c3c, #c0392b); border-radius: 6px; text-align: center; box-shadow: 0 2px 8px rgba(231, 76, 60, 0.3);">
-        <div style="font-size: 1.3rem; font-weight: 700; color: white; text-shadow: 0 1px 2px rgba(0,0,0,0.2);">
-          🛍️ Get Extra ₹50 OFF on 2+ Products
-        </div>
-      </div>
+     
 
       <div class="drawer__footer">
         {%- if settings.show_cart_note -%}
