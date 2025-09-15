@@ -1,0 +1,651 @@
+<style>.__pf [data-pf-type=Section]{overflow:hidden!important}</style><script>
+	window.__pageflyProducts = window.__pageflyProducts || {};
+	{% unless product.id == null %}window.__pageflyProducts["{{product.id}}"] = {
+		id: {{ product.id | json }},
+		handle: {{ product.handle | json }},
+		title: {{ product.title | json }},
+		type: {{ product.type | json }},
+		url: {{ product.url | within: collection | json }},
+		vendor: {{ product.vendor | json }},
+		variants: {{ product.variants | json }},
+		options: {{ product.options | json }},
+		media: {{ product.media | json }},
+		has_only_default_variant: {{ product.has_only_default_variant | json }},
+		options_with_values: {{ product.options_with_values | json }},
+		selected_variant: {{ product.selected_variant | json }},
+		selected_or_first_available_variant: {{ product.selected_or_first_available_variant | json }},
+		tags: {{ product.tags | json }},
+		template_suffix: {{ product.template_suffix | json }},
+		featured_image: {{ product.featured_image | json }},
+		featured_media: {{ product.featured_media | json }},
+		images: {{ product.images | json }},
+		quantity: {% assign quantity = '' %}{% for variant in product.variants %}{% assign quantity = quantity | append: variant.id | append: ':' | append: variant.inventory_quantity | append: ',' %}{% endfor %}{% assign quantity = quantity | split: ','%}{{quantity | json }}
+	};{% endunless %}
+	</script><div data-pf-editor-version="legacy" class="sc-imwrwD kQwaPS __pf __pf_QojJVsGb" id="__pf"><div data-pf-type="Body" class="sc-djTQOc ejtSSi pf-4_"><div data-pf-type="Layout" class="sc-fatbYi kUsjkM pf-5_"><div data-section-id="pf-758c" data-pf-type="Section" class="sc-epRwmx cpmRjY pf-6_ pf-color-scheme-1"><div class="sc-djVWQC dKziBg"><div class="sc-hzhKNl fltMam pf-7_ pf-r pf-r-eh" style="--s-xs:15px;position:relative" data-pf-type="Row"><div class="pf-c" style="--c-xs:12;--c-sm:12;--c-md:12;--c-lg:12"><div data-pf-type="Column" class="sc-pKreJ bIaXH pf-8_"><img alt="Fitness Gym (Banner (Landscape)).jpg__PID:e1c188dc-e538-4fa8-af0a-f855624c85ed" src="https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Fitness_Gym_Banner_Landscape.jpg?v=1746528547&width=2048" srcSet="https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Fitness_Gym_Banner_Landscape.jpg?v=1746528547&width=375 375w,https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Fitness_Gym_Banner_Landscape.jpg?v=1746528547&width=550 550w,https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Fitness_Gym_Banner_Landscape.jpg?v=1746528547&width=768 768w,https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Fitness_Gym_Banner_Landscape.jpg?v=1746528547&width=1024 1024w,https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Fitness_Gym_Banner_Landscape.jpg?v=1746528547&width=1280 1280w,https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Fitness_Gym_Banner_Landscape.jpg?v=1746528547&width=1440 1440w,https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Fitness_Gym_Banner_Landscape.jpg?v=1746528547&width=1680 1680w,https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Fitness_Gym_Banner_Landscape.jpg?v=1746528547&width=1800 1800w,https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Fitness_Gym_Banner_Landscape.jpg?v=1746528547&width=1920 1920w,https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Fitness_Gym_Banner_Landscape.jpg?v=1746528547&width=2048 2048w" fetchPriority="low" decoding="async" loading="lazy" style="--pf-image-ratio:2" width="2646" height="1323" sizes="75vw" data-pf-type="Image4" class="sc-lmUbDS jhRUAf pf-9_ pf-image-1 pf-sm-hide pf-hide" store="[object Object]"/></div></div></div></div></div><div data-section-id="pf-f855" data-pf-type="Section" class="sc-epRwmx cpmRjY pf-10_ pf-color-scheme-1"><div class="sc-djVWQC dKziBg"><div class="sc-hzhKNl fltMam pf-11_ pf-r pf-r-eh" style="--s-xs:15px;position:relative" data-pf-type="Row"><div class="pf-c" style="--c-xs:12;--c-sm:12;--c-md:12;--c-lg:12"><div data-pf-type="Column" class="sc-pKreJ bIaXH pf-12_"><img alt="Fitness Gym (Banner (Landscape)) (300 x 300 px).png__PID:f855624c-85ed-4b26-a051-69e5b6334e8e" src="https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Untitled_design_69.png?v=1755324431&width=2048" srcSet="https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Untitled_design_69.png?v=1755324431&width=375 375w,https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Untitled_design_69.png?v=1755324431&width=550 550w,https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Untitled_design_69.png?v=1755324431&width=768 768w,https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Untitled_design_69.png?v=1755324431&width=1024 1024w,https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Untitled_design_69.png?v=1755324431&width=1280 1280w,https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Untitled_design_69.png?v=1755324431&width=1440 1440w,https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Untitled_design_69.png?v=1755324431&width=1680 1680w,https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Untitled_design_69.png?v=1755324431&width=1800 1800w,https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Untitled_design_69.png?v=1755324431&width=1920 1920w,https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Untitled_design_69.png?v=1755324431&width=2048 2048w" fetchPriority="low" decoding="async" loading="lazy" style="--pf-image-ratio:1" width="1080" height="1080" sizes="75vw" data-pf-type="Image4" class="sc-lmUbDS jhRUAf pf-13_ pf-image-1 pf-lg-hide pf-md-hide" store="[object Object]"/></div></div></div></div></div><div data-section-id="pf-4863" data-pf-type="Section" class="sc-epRwmx cpmRjY pf-14_ pf-color-scheme-1"><div class="sc-djVWQC dKziBg"><div class="sc-hzhKNl fltMam pf-15_ pf-r pf-c-cm" style="--s-xs:8px;--s-sm:15px;--s-lg:0px;position:relative" data-pf-type="Row"><div class="pf-c" style="--c-xs:12;--c-sm:12;--c-md:12;--c-lg:12"><div data-pf-type="Column" class="sc-pKreJ bIaXH pf-16_"><h3 data-pf-type="Heading2" class="sc-iLLNPL gTJAOY pf-17_ pf-heading-1-h3">See Our Products</h3></div></div></div><div class="sc-hzhKNl fltMam pf-19_ pf-r pf-c-cm pf-r-eh" style="--s-xs:8px;--s-sm:15px;--s-lg:8px;position:relative" data-pf-type="Row"><div class="pf-c" style="--c-xs:12;--c-sm:12;--c-md:12;--c-lg:12"><div data-pf-type="Column" class="sc-pKreJ bIaXH pf-20_"><div style="--s-xs:3px;--s-sm:15px" data-pf-type="ProductList2" class="sc-gJDa-DI sc-etVcyS hJJCUo dyzhiH pf-21_"><div class="pf-slider pf-c-lt" style="--ss-xs:1;--ss-sm:2;--ss-md:3;--ss-lg:4" data-slider="{'navStyle':'nav-style-1','maxHeight':true,'listLayout':{'all':1,'laptop':1,'tablet':1,'mobile':1},'slidesToShow':{'all':4,'laptop':3,'tablet':2,'mobile':1},'slidesToScroll':{'all':1,'laptop':1,'tablet':1,'mobile':1},'paginationStyle':'pagination-style-1','displayPartialItems':{'all':false,'laptop':false,'tablet':false,'mobile':false},'spacing':{'all':'30px','laptop':'30px','tablet':'30px','mobile':'6px'}}">{% assign defaultProduct = product %}{% paginate collections.all.products by 8 %}{% for product in collections.all.products %}{% assign product_index = forloop.index | minus: 1 %}<div class="pf-slide pf-c"><script>
+				window.__pageflyProducts = window.__pageflyProducts || {};
+				window.__pageflyProducts["{{product.id}}"] = {
+					id: {{product.id | json }},
+					handle: {{product.handle | json }},
+					title: {{product.title | json }},
+					type: {{product.type | json }},
+					url: {{product.url | within: collection  | json }},
+					vendor: {{product.vendor | json }},
+					variants: {{product.variants | json }},
+					options: {{product.options | json }},
+					media: {{product.media | json }},
+					has_only_default_variant: {{product.has_only_default_variant | json }},
+					options_with_values: {{product.options_with_values | json }},
+					selected_variant: {{product.selected_variant | json }},
+					selected_or_first_available_variant: {{product.selected_or_first_available_variant | json }},
+					tags: {{product.tags | json }},
+					template_suffix: {{product.template_suffix | json }},
+					featured_image: {{product.featured_image | json }},
+					featured_media: {{product.featured_media | json }},
+					images: {{product.images | json }},
+					quantity: {% assign quantity = '' %}{% for variant in product.variants %}{% assign quantity = quantity | append: variant.id | append: ':' | append: variant.inventory_quantity | append: ',' %}{% endfor %}{% assign quantity = quantity | split: ','%}{{quantity | json }}
+
+				};</script><div data-product-id="{{ product.id }}" data-pf-type="ProductBox" class="sc-cMRYur fhQysA pf-22_">{% if product != null %}{% form "product", product, data-productid: product.id, class: "pf-product-form" %}<div class="sc-hzhKNl fltMam pf-23_ pf-r pf-r-eh" style="--s-xs:0px;position:relative" data-pf-type="Row"><div class="pf-c" style="--c-xs:12;--c-sm:12;--c-md:12;--c-lg:12"><div data-pf-type="Column" class="sc-pKreJ bIaXH pf-24_"><div data-product-id="{{ product.id }}" data-media-id="{% liquid
+    assign min = 10000000000
+    assign max = 99999999999
+    assign diff = max | minus: min
+    assign number = "now" | date: "%N" | modulo: diff | plus: min
+  %}{{number}}" data-pf-type="ProductMedia2" class="sc-fvwkrp fPTfKZ pf-25_">
+                      {% assign media = product.media %}
+                      {% assign featured_media = product.featured_media %}
+                      {% assign _product = product %}
+                      {% assign first_3d_model = product.media | where: "media_type", "model" | first %}
+                  <div class="sc-hybRkP lbthYU   pf-lg-hide-list pf-md-hide-list pf-sm-hide-list pf-xs-hide-list product-media2-inner product-media-loading"><div class="sc-dcjSKq hPdyQk pmw pf-main-media-wrapper"><div data-pf-type="MediaMain2" class="sc-cvamBY irPXjU pf-26_ pf-main-media" data-href="{{ product.url }}" data-action="url"><div class="sc-gbWCTK gqVztx">{% if media.size == 0 %}<div class="pf-media-slider scrollfix">{% assign temp_placeholder = 'collection-1' | placeholder_svg_tag: 'pf-product-placeholder' %}{{ temp_placeholder | replace: 'class="pf-product-placeholder"', 'class="pf-product-placeholder" height="" preserveAspectRatio="xMidYMid meet"' }}</div>{% else %}{% assign assigned_product = product %}{% assign selected_variant = assigned_product.selected_variant %}{% assign media_item_selected = media | first %}{% assign media_item_selected = assigned_product.featured_media %}{% if selected_variant and selected_variant.featured_media %}{% assign media_item_selected = selected_variant.featured_media %}{% endif %}{% if selected_variant and selected_variant.featured_media == nil %}{% assign media_item_selected = assigned_product.featured_media %}{% endif %}{% assign default_variant_media_id = media_item_selected.id %}<div class="pf-media-slider scrollfix" data-id="slider-7ea2576e-a637-4612-a766-95055f111c9c">{% assign media_item = media | first %}{% assign media_item = assigned_product.featured_media %}{% if selected_variant and selected_variant.featured_media %}{% assign media_item = selected_variant.featured_media %}{% endif %}{% if selected_variant and selected_variant.featured_media == nil %}{% assign media_item = assigned_product.featured_media %}{% endif %}<div class="pf-slide-main-media" data-media-type="{{ media_item.media_type }}" data-media-id="{{ media_item.id }}">{% case media_item.media_type %}
+                  {% when 'model' %}<div class="pf-media-wrapper video-wrapper" style="--r-lg:{{ 1 | divided_by: media_item.preview_image.aspect_ratio | times: 100 }}%">{{ media_item | media_tag }}<div class="pf-mask"><span><svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.6" d="M14.1301 3.27971L9.00008 0.319707C8.69604 0.144171 8.35115 0.0517578 8.00008 0.0517578C7.649 0.0517578 7.30411 0.144171 7.00008 0.319707L1.88008 3.31971C1.5719 3.49759 1.31675 3.75447 1.14097 4.06385C0.965185 4.37323 0.875124 4.72391 0.880077 5.07971V10.9997C0.875124 11.3555 0.965185 11.7062 1.14097 12.0156C1.31675 12.3249 1.5719 12.5818 1.88008 12.7597L7.00008 15.7597C7.30411 15.9352 7.649 16.0277 8.00008 16.0277C8.35115 16.0277 8.69604 15.9352 9.00008 15.7597L14.1201 12.7597C14.4283 12.5818 14.6834 12.3249 14.8592 12.0156C15.035 11.7062 15.125 11.3555 15.1201 10.9997V4.99971C15.119 4.65165 15.0271 4.30991 14.8535 4.00825C14.6798 3.7066 14.4305 3.45547 14.1301 3.27971ZM7.73008 14.3797L2.61008 11.3797C2.54095 11.34 2.48167 11.2852 2.43666 11.2194C2.39164 11.1536 2.36205 11.0785 2.35008 10.9997V4.99971C2.3504 4.90601 2.37556 4.81407 2.42299 4.73327C2.47042 4.65246 2.53843 4.58567 2.62008 4.53971L7.74008 1.53971C7.82065 1.49319 7.91204 1.4687 8.00508 1.4687C8.09811 1.4687 8.18951 1.49319 8.27008 1.53971L13.3901 4.53971L8.67008 7.21971C8.45972 7.33976 8.28614 7.51498 8.16806 7.72646C8.04999 7.93793 7.9919 8.17764 8.00008 8.41971V14.4197C7.91475 14.4413 7.8254 14.4413 7.74008 14.4197L7.73008 14.3797Z" fill="black"></path></svg></span></div></div><img style="display:none" class="sc-evdVvv jVzbKY active variant-image" data-media-id="{{ media_item.id}}"/>{% when 'external_video' %}<div class="pf-media-wrapper video-wrapper" data-video-host="{{ media_item.host }}" style="--r-lg:{{ 1 | divided_by: media_item.preview_image.aspect_ratio | times: 100 }}%">{{ media_item | media_tag }}<div class="pf-mask-iframe" data-play="false"></div></div><img style="display:none" class="sc-evdVvv jVzbKY active variant-image" data-media-id="{{ media_item.id}}"/>{% when 'video' %}<div class="pf-media-wrapper video-wrapper" style="--r-lg:{{ 1 | divided_by: media_item.preview_image.aspect_ratio | times: 100 }}%">{{ media_item | media_tag }}</div><img style="display:none" class="sc-evdVvv jVzbKY active variant-image" data-media-id="{{ media_item.id}}"/>{% else %}{% capture tmp_loading %}
+            {% assign base_url = media_item | image_url %}
+            {% assign widths = "375, 550, 768, 1024, 1280, 1440, 1680, 1800, 1920, 2048" | split: ', ' %}
+
+            {% assign srcset_values = "" %}
+            
+            {% for width in widths %}
+              {% assign image_url = base_url | append: "&width=" | append: width %}
+              {% assign srcset_values = srcset_values | append: image_url | append: ' ' | append: width | append: 'w,' %}
+            {% endfor %}
+
+            {% if srcset_values != "" %}
+              {% assign srcset_values = srcset_values | append: '#END' %}
+              {% assign srcset_values = srcset_values | remove: ',#END' %}
+            {% endif %}
+          <div class="pf-media-wrapper video-wrapper" style="display:none;--r-lg:{{ 1 | divided_by: media_item.preview_image.aspect_ratio | times: 100 }}%"></div><img alt="{{ media_item.alt }}" data-pf-temp-loading="lazy" width="{{ media_item.width }}" height="{{ media_item.height }}" style="--pf-image-ratio:{{ media_item.aspect_ratio }}" class="sc-evdVvv jVzbKY active variant-image" src="{{ media_item | image_url | append: "&width=" | append: "2048" }}" srcSet="{{ srcset_values }}" sizes="(min-width: 1200px) 25vw, (min-width: 1025px) and (max-width: 1199px) 33vw, (min-width: 768px) and (max-width: 1024px) 50vw, (max-width: 767px) 75vw" data-fetchPriority="low" data-action="1" data-media-id="{{ media_item.id}}" decoding="async"/>{% endcapture %} {% assign _tmp_loading = tmp_loading | replace: 'data-pf-temp-loading', 'loading' | replace: 'data-fetchPriority', 'fetchpriority' %}{% echo _tmp_loading | replace: 'loading="standard"', '' %}{% endcase %}</div></div>{% endif %}</div></div></div><div class="sc-gQSlcx gXmenw pf-27_ pf-list-media pf-hide pf-sm-hide pf-md-hide pf-lg-hide" data-pf-type="MediaList2"><div class="pf-media-slider scrollfix " style="--dpi-xs:0%;--gap-xs:10px" data-id="slider-a2576ea6-37c6-4267-a695-055f111c9c82">{% for media_item in media %}
+              {% assign media_type = media_item.media_type %}<div class="sc-leRbh ssSTH pf-28_ pf-slide-list-media" data-img-id="{{ media_item.id }}" data-media-type="{{ media_item.media_type }}" data-pf-type="MediaItem2">
+          {% assign base_url = media_item | image_url %}
+          {% assign widths = "150, 250, 350, 450" | split: ', ' %}
+          {% assign srcset_values = "" %}
+          
+          {% for width in widths %}
+            {% assign image_url = base_url | append: "&width=" | append: width %}
+            {% assign srcset_values = srcset_values | append: image_url | append: ' ' | append: width | append: 'w,' %}
+          {% endfor %}
+          
+          {% if srcset_values != "" %}
+            {% assign srcset_values = srcset_values | append: '#END' %}
+            {% assign srcset_values = srcset_values | remove: ',#END' %}
+          {% endif %}
+        <img alt="{{ media_item.alt }}" loading="lazy" src="{{ media_item | img_url: "xundefined", scale: 2}}" srcSet="{{ srcset_values }}" fetchPriority="low" decoding="async" sizes="(min-width: 1200px) 20vw, (min-width: 1025px) and (max-width: 1199px) 20vw, (min-width: 768px) and (max-width: 1024px) 20vw, (max-width: 767px) 20vw"/>{% case media_type %}
+            {% when 'model' %}<span class="sc-ijtsRY xFSWj"><svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.6" d="M14.1301 3.27971L9.00008 0.319707C8.69604 0.144171 8.35115 0.0517578 8.00008 0.0517578C7.649 0.0517578 7.30411 0.144171 7.00008 0.319707L1.88008 3.31971C1.5719 3.49759 1.31675 3.75447 1.14097 4.06385C0.965185 4.37323 0.875124 4.72391 0.880077 5.07971V10.9997C0.875124 11.3555 0.965185 11.7062 1.14097 12.0156C1.31675 12.3249 1.5719 12.5818 1.88008 12.7597L7.00008 15.7597C7.30411 15.9352 7.649 16.0277 8.00008 16.0277C8.35115 16.0277 8.69604 15.9352 9.00008 15.7597L14.1201 12.7597C14.4283 12.5818 14.6834 12.3249 14.8592 12.0156C15.035 11.7062 15.125 11.3555 15.1201 10.9997V4.99971C15.119 4.65165 15.0271 4.30991 14.8535 4.00825C14.6798 3.7066 14.4305 3.45547 14.1301 3.27971ZM7.73008 14.3797L2.61008 11.3797C2.54095 11.34 2.48167 11.2852 2.43666 11.2194C2.39164 11.1536 2.36205 11.0785 2.35008 10.9997V4.99971C2.3504 4.90601 2.37556 4.81407 2.42299 4.73327C2.47042 4.65246 2.53843 4.58567 2.62008 4.53971L7.74008 1.53971C7.82065 1.49319 7.91204 1.4687 8.00508 1.4687C8.09811 1.4687 8.18951 1.49319 8.27008 1.53971L13.3901 4.53971L8.67008 7.21971C8.45972 7.33976 8.28614 7.51498 8.16806 7.72646C8.04999 7.93793 7.9919 8.17764 8.00008 8.41971V14.4197C7.91475 14.4413 7.8254 14.4413 7.74008 14.4197L7.73008 14.3797Z" fill="black"></path></svg></span>{% when 'external_video' or 'video' %}<span class="sc-ijtsRY xFSWj"><svg width="11" height="14" viewBox="0 0 11 14" fill="none" xmlns="http://www.w3.org/2000/svg"><path opacity="0.6" d="M1.71795 0.719814C1.56631 0.627985 1.39299 0.578117 1.21573 0.57532C1.03847 0.572523 0.863662 0.616896 0.7092 0.703896C0.554738 0.790895 0.42618 0.917392 0.336696 1.07043C0.247212 1.22346 0.200019 1.39754 0.199951 1.57481V12.3108C0.199976 12.4926 0.249526 12.6708 0.343274 12.8265C0.437022 12.9822 0.571425 13.1094 0.732038 13.1945C0.89265 13.2795 1.0734 13.3191 1.25486 13.3092C1.43632 13.2992 1.61163 13.24 1.76195 13.1378L10.112 7.46081C10.2504 7.36662 10.363 7.23915 10.4394 7.09011C10.5158 6.94107 10.5536 6.77523 10.5492 6.6078C10.5448 6.44038 10.4985 6.27673 10.4144 6.13189C10.3303 5.98704 10.2112 5.86564 10.068 5.77881L1.71795 0.718814V0.719814Z" fill="black"></path></svg></span>{% endcase %}</div>{% endfor %}</div></div></div></div><h3 data-product-type="title" data-product-id="{{ product.id }}" data-href="{{ product.url | within: collection }}" data-pf-type="ProductTitle" class="sc-WsNkl sc-cPyLhP ekvKWj CTCEP pf-30_ pf-heading-1-h3">{{ product.title }}</h3><div data-pf-type="ProductPrice2" class="sc-iNIdYS hbYaZd pf-31_ pf-text-6 pf-lg-hide"><div data-product-type="price" data-product-id="{{ product.id }}" data-product-price="true" data-pf-type="ProductPrice2Item" class="sc-fTyEpz jlvEhk pf-32_ pf-text-1">{{ product.variants[0].price | money }}</div><div data-product-type="compare_at_price" data-product-id="{{ product.id }}" data-pf-type="ProductPrice2Item" class="sc-fTyEpz jlvEhk pf-33_ pf-text-1">{{ product.variants[0].compare_at_price | money }}</div></div><div data-pf-type="ProductPrice2" class="sc-iNIdYS hbYaZd pf-34_ pf-text-1 pf-hide"><div data-product-type="price" data-product-id="{{ product.id }}" data-product-price="true" data-pf-type="ProductPrice2Item" class="sc-fTyEpz jlvEhk pf-35_ pf-text-1 pf-hide">{{ product.variants[0].price | money }}</div></div><button data-product-id="{{ product.id }}" data-checkout="same" data-soldout="Sold out" data-adding="Adding..." data-added="Thank you!" name="add" type="button" data-pf-type="ProductATC2" class="sc-bwGlhP dQJHzl pf-37_ pf-button-1">Add To Cart</button></div></div></div>{% endform %}{% endif %}</div></div>{% endfor %}{% endpaginate %}{% assign product = defaultProduct %}<button type="button" aria-label="Previous" style="visibility:hidden" class="pf-slider-prev nav-style-1"></button><button type="button" aria-label="Next" style="visibility:hidden" class="pf-slider-next nav-style-1"></button><div class="pf-slider-nav pagination-style-1"></div></div></div></div></div></div></div></div><div data-section-id="pf-f632" data-pf-type="Section" class="sc-epRwmx cpmRjY pf-39_ pf-color-scheme-1"><div class="sc-djVWQC dKziBg"><div class="sc-hzhKNl fltMam pf-40_ pf-r pf-c-cm pf-r-eh" style="--s-xs:13px;--s-sm:15px;--s-lg:0px;position:relative" data-pf-type="Row"><div class="pf-c" style="--c-xs:12;--c-sm:12;--c-md:12;--c-lg:12"><div data-pf-type="Column" class="sc-pKreJ bIaXH pf-41_"><h2 data-pf-type="Heading2" class="sc-iLLNPL gTJAOY pf-42_ pf-heading-1-h2">Unmatched Support, Ultimate Comfort</h2><div data-pf-type="Custom.HTML" class="sc-boZfnm jvQCDP pf-44_"><!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Flipping Card Carousel</title>
+  <style>
+    :root {
+      --gap: 16px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .carousel-container {
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 12px;
+    }
+
+    .carousel-track {
+      display: flex;
+      gap: var(--gap);
+      overflow-x: auto;
+      padding-bottom: 10px;
+      scroll-snap-type: x mandatory;
+      scroll-behavior: smooth;
+    }
+
+    .flip-card {
+      flex: 0 0 280px;
+      /* default width */
+      height: 380px;
+      scroll-snap-align: start;
+      perspective: 1000px;
+    }
+
+    .flip-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      transition: transform 0.6s;
+      transform-style: preserve-3d;
+    }
+
+    .flip-card:hover .flip-card-inner {
+      transform: rotateY(180deg);
+    }
+
+    .flip-card-front,
+    .flip-card-back {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .flip-card-front img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .flip-card-back {
+      background-color: #93385d;
+      transform: rotateY(180deg);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+    }
+
+    .card-title {
+      font-size: 1.6rem;
+      margin-bottom: 12px;
+    }
+
+    .card-text {
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+
+    /* Tablets */
+    @media (max-width: 992px) {
+      .flip-card {
+        flex: 0 0 220px;
+        height: 320px;
+      }
+
+      .card-title {
+        font-size: 1.3rem;
+      }
+
+      .card-text {
+        font-size: 0.9rem;
+      }
+    }
+
+    /* Mobile */
+    @media (max-width: 600px) {
+      .carousel-track {
+        gap: 12px;
+      }
+
+      .flip-card {
+        flex: 0 0 80%;
+        height: 300px;
+      }
+
+      .flip-card:hover .flip-card-inner {
+        transform: none;
+        /* disable hover flip on mobile */
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="carousel-container">
+    <div class="carousel-track">
+      <!-- Card 1 -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Support_and_Stability.png?v=1739860144" alt="Support">
+          </div>
+          <div class="flip-card-back">
+            <h3 class="card-title">Support & Stability</h3>
+            <p class="card-text">Wrist wraps and waist belts provide excellent support, reducing strain during workouts
+              and daily activities.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Untitled_design_18.png?v=1740045034" alt="Injury Prevention">
+          </div>
+          <div class="flip-card-back">
+            <h3 class="card-title">Injury Prevention</h3>
+            <p class="card-text">Maintain proper posture and alignment to reduce risk of strains and sprains.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Untitled_design_19.png?v=1740045576" alt="Pain Relief">
+          </div>
+          <div class="flip-card-back">
+            <h3 class="card-title">Pain Relief</h3>
+            <p class="card-text">Alleviate pain from injuries, fatigue, or chronic conditions with targeted compression.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Untitled_design_17.png?v=1739859320" alt="Performance">
+          </div>
+          <div class="flip-card-back">
+            <h3 class="card-title">Improved Performance</h3>
+            <p class="card-text">Enhance your workouts with increased stability and confidence.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="flip-card">
+        <div class="flip-card-inner">
+          <div class="flip-card-front">
+            <img src="https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Poppins_1.png?v=1740046924" alt="Comfort">
+          </div>
+          <div class="flip-card-back">
+            <h3 class="card-title">Adjustable & Comfortable</h3>
+            <p class="card-text">Breathable materials and adjustable straps for all-day comfort.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Tap-to-flip on mobile
+    document.querySelectorAll('.flip-card').forEach(card => {
+      card.addEventListener('click', function () {
+        if (window.innerWidth <= 600) {
+          const inner = this.querySelector('.flip-card-inner');
+          inner.style.transform =
+            inner.style.transform === 'rotateY(180deg)' ? 'rotateY(0deg)' : 'rotateY(180deg)';
+        }
+      });
+    });
+  </script>
+</body>
+
+</html></div></div></div></div></div></div><div data-section-id="pf-f2e6" data-pf-type="Section" class="sc-epRwmx cpmRjY pf-45_ pf-color-scheme-1"><div class="sc-djVWQC dKziBg"><div class="sc-hzhKNl fltMam pf-46_ pf-r pf-r-eh" style="--s-xs:15px;position:relative" data-pf-type="Row"><div class="pf-c" style="--c-xs:12;--c-sm:12;--c-md:12;--c-lg:12"><div data-pf-type="Column" class="sc-pKreJ bIaXH pf-47_"><div data-pf-type="Custom.HTML" class="sc-boZfnm jvQCDP pf-48_"><div id="stns-showcase-wrapper">
+  <!-- Infinite Carousel -->
+  <div id="stns-infinite-carousel">
+    <div class="stns-carousel">
+      <div class="stns-carousel-track">
+        <!-- Replace with your images -->
+        <img src="https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Join.png?v=1746616724" alt="1" />
+        <img src="https://cdn.shopify.com/s/files/1/0633/6122/0698/files/WhatsApp_Image_2025-05-07_at_16.28.07.jpg?v=1746616692" alt="2" />
+        <img src="https://cdn.shopify.com/s/files/1/0633/6122/0698/files/WhatsApp_Image_2025-05-07_at_16.28.07_2.jpg?v=1746616692" alt="3" />
+        <img src="https://cdn.shopify.com/s/files/1/0633/6122/0698/files/WhatsApp_Image_2025-05-07_at_16.28.07_1.jpg?v=1746616692" alt="4" />
+        <img src="https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Fitness_Gym_Banner_Landscape_300_x_300_px_1.png?v=1746616692" alt="5" />
+        <!-- Duplicate set -->
+        <img src="https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Join.png?v=1746616724" alt="1" />
+        <img src="https://cdn.shopify.com/s/files/1/0633/6122/0698/files/WhatsApp_Image_2025-05-07_at_16.28.07.jpg?v=1746616692" alt="2" />
+        <img src="https://cdn.shopify.com/s/files/1/0633/6122/0698/files/WhatsApp_Image_2025-05-07_at_16.28.07_2.jpg?v=1746616692" alt="3" />
+        <img src="https://cdn.shopify.com/s/files/1/0633/6122/0698/files/WhatsApp_Image_2025-05-07_at_16.28.07_1.jpg?v=1746616692" alt="4" />
+        <img src="https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Fitness_Gym_Banner_Landscape_300_x_300_px_1.png?v=1746616692" alt="5" />
+      </div>
+    </div>
+  </div>
+
+  <!-- Info Section -->
+  <div id="info-wrapper">
+    <div id="info-section">
+      <div class="info-card">
+        <div class="icon">
+          <img src="https://cdn.shopify.com/s/files/1/0633/6122/0698/files/return-box-cycle-svgrepo-com.svg?v=1746529306" alt="Free Delivery" />
+        </div>
+        <p><span class="bold">FREE</span> DELIVERY</p>
+      </div>
+
+      <div class="info-card">
+        <div class="icon">
+          <img src="https://cdn.shopify.com/s/files/1/0633/6122/0698/files/free-delivery-truck-svgrepo-com.svg?v=1746529306" alt="Easy Returns" />
+        </div>
+        <p><span class="bold">EASY</span> RETURNS</p>
+      </div>
+
+      <div class="info-card">
+        <div class="icon">
+          <img src="https://cdn.shopify.com/s/files/1/0633/6122/0698/files/workspace-trusted-svgrepo-com_1.svg?v=1746529515" alt="Trusted" />
+        </div>
+        <p>TRIED. TESTED. <span class="bold">TRUSTED.</span></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+  #stns-showcase-wrapper {
+    background-color: #000;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+  }
+
+  /* Carousel Styling */
+  #stns-infinite-carousel {
+    overflow: hidden;
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  .stns-carousel {
+    overflow: hidden;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  .stns-carousel-track {
+    display: flex;
+    width: 200%;
+    animation: stns-scroll 20s linear infinite;
+  }
+
+  .stns-carousel-track img {
+    width: 12%;
+    object-fit: cover;
+    flex-shrink: 0;
+    border-radius: 16px;
+    margin-left: 20px;
+  }
+
+  @keyframes stns-scroll {
+    0% {
+      transform: translateX(0%);
+    }
+
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  @media (max-width: 768px) {
+    .stns-carousel-track img {
+      width: 40%;
+    }
+  }
+
+  /* Info Section Styling */
+  #info-wrapper {
+    padding: 40px 20px;
+  }
+
+  #info-section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .info-card {
+    background-color: #161616;
+    border-radius: 10px;
+    padding: 30px 25px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    min-width: 280px;
+    flex: 1;
+    max-width: 400px;
+    text-align: left;
+  }
+
+  .info-card .icon {
+    background-color: #fff;
+    border: 1px solid #666;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+  }
+
+  .info-card .icon img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+  }
+
+  .info-card p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  .bold {
+    font-weight: 700;
+  }
+
+  @media (max-width: 768px) {
+    #info-section {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .info-card {
+      width: 100%;
+      max-width: 90%;
+      justify-content: flex-start;
+      /* fix alignment */
+      text-align: left;
+    }
+  }
+</style></div></div></div></div></div></div><div data-section-id="pf-0f3f" data-pf-type="Section" class="sc-epRwmx cpmRjY pf-49_ pf-color-scheme-1"><div class="sc-djVWQC dKziBg"><div class="sc-hzhKNl fltMam pf-50_ pf-r pf-r-eh" style="--s-xs:15px;position:relative" data-pf-type="Row"><div class="pf-c" style="--c-xs:12;--c-sm:12;--c-md:12;--c-lg:12"><div data-pf-type="Column" class="sc-pKreJ bIaXH pf-51_"><div data-pf-type="Custom.HTML" class="sc-boZfnm jvQCDP pf-52_"><!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flipkart & Amazon Ratings Section</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f5f5f5;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    .milestone-section {
+      background: #fff;
+      padding: 60px 20px;
+      width: 100%;
+      text-align: center;
+      box-sizing: border-box;
+      box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .milestone-header {
+      font-size: 20px;
+      color: #93385d;
+      margin-bottom: 10px;
+      font-weight: 600;
+    }
+
+    .milestone-title {
+      font-size: 28px;
+
+      color: black;
+    }
+
+    .highlight {
+      color: #93385d;
+      text-decoration: underline;
+    }
+
+    .milestone-grid {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 20px;
+      gap: 100px;
+    }
+
+    .milestone-item {
+      text-align: center;
+      min-width: 140px;
+    }
+
+    .milestone-number {
+      font-size: 28px;
+
+      color: black;
+      display: inline-block;
+    }
+
+    .milestone-label {
+      font-size: 16px;
+      color: #93385d;
+      margin-top: 8px;
+    }
+
+    @media (max-width: 768px) {
+      .milestone-title {
+        font-size: 22px;
+      }
+
+      .milestone-grid {
+        gap: 8px;
+      }
+
+      .milestone-item {
+        min-width: 100px;
+      }
+
+      .milestone-number {
+        font-size: 22px;
+      }
+
+      .milestone-label {
+        font-size: 12px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="milestone-section" id="milestone">
+    <div class="milestone-header">Some Milestones</div>
+    <div class="milestone-title">We have already completed <span class="highlight">4.5+</span> Flipkart & Amazon ratings
+      and <span class="highlight"> counting...</span> </div>
+    <div class="milestone-grid">
+      <div class="milestone-item">
+        <div class="milestone-number" data-target="50000">50000+</div>
+        <div class="milestone-label">Rated Customers</div>
+      </div>
+      <div class="milestone-item">
+        <div class="milestone-number" data-target="400000">400000+</div>
+        <div class="milestone-label">Total Buyers</div>
+      </div>
+      <div class="milestone-item">
+        <div class="milestone-number" data-target="9">9+</div>
+        <div class="milestone-label">Best Sellers</div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+            const section = document.getElementById("milestone");
+            const observer = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        section.style.opacity = 1;
+                        section.style.transform = "translateY(0)";
+                        observer.unobserve(section);
+                        startCounting();
+                    }
+                });
+            }, { threshold: 0.5 });
+            observer.observe(section);
+        });
+
+        function startCounting() {
+            const counters = document.querySelectorAll(".milestone-number");
+            counters.forEach(counter => {
+                const updateCount = () => {
+                    let target = +counter.getAttribute("data-target");
+                    let count = +counter.innerText.replace(/\D/g, '');
+                    let increment = target / 100;
+
+                    if (count < target) {
+                        count = Math.ceil(count + increment);
+                        counter.innerText = formatNumber(count);
+                        setTimeout(updateCount, 30);
+                    } else {
+                        counter.innerText = formatNumber(target);
+                    }
+                };
+                updateCount();
+            });
+        }
+
+        function formatNumber(num) {
+            return num >= 1000 ? (num / 1000).toFixed(0) + "k+" : num + "+";
+        }
+  </script>
+</body>
+
+</html></div></div></div></div></div></div><div data-section-id="pf-e8cc" data-pf-type="Section" class="sc-epRwmx cpmRjY pf-53_ pf-color-scheme-1"><div class="sc-djVWQC dKziBg"><div class="sc-hzhKNl fltMam pf-54_ pf-r pf-r-eh" style="--s-xs:8px;--s-sm:15px;position:relative" data-pf-type="Row"><div class="pf-c" style="--c-xs:12;--c-sm:12;--c-md:12;--c-lg:12"><div data-pf-type="Column" class="sc-pKreJ bIaXH pf-55_"><img alt="Untitled design (2).svg__PID:99fe2a42-d044-49de-bc07-14731c69097d" src="https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Untitled_design_2_9e4bda4f-ad70-474e-97af-fb2df310a6f3.svg?v=1740217115" fetchPriority="low" decoding="async" loading="lazy" style="--pf-image-ratio:1.7777777777777777" width="1920" height="1080" sizes="75vw" data-pf-type="Image4" class="sc-lmUbDS jhRUAf pf-56_ pf-image-1 pf-sm-hide pf-hide" store="[object Object]"/><img alt="Untitled (Your Story) (1).jpg__PID:efafcbfe-531a-44df-bec9-ae482774abaa" src="https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Untitled_Your_Story_1.jpg?v=1746445268&width=2048" srcSet="https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Untitled_Your_Story_1.jpg?v=1746445268&width=375 375w,https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Untitled_Your_Story_1.jpg?v=1746445268&width=550 550w,https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Untitled_Your_Story_1.jpg?v=1746445268&width=768 768w,https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Untitled_Your_Story_1.jpg?v=1746445268&width=1024 1024w,https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Untitled_Your_Story_1.jpg?v=1746445268&width=1280 1280w,https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Untitled_Your_Story_1.jpg?v=1746445268&width=1440 1440w,https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Untitled_Your_Story_1.jpg?v=1746445268&width=1680 1680w,https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Untitled_Your_Story_1.jpg?v=1746445268&width=1800 1800w,https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Untitled_Your_Story_1.jpg?v=1746445268&width=1920 1920w,https://cdn.shopify.com/s/files/1/0633/6122/0698/files/Untitled_Your_Story_1.jpg?v=1746445268&width=2048 2048w" fetchPriority="low" decoding="async" loading="lazy" style="--pf-image-ratio:0.5625" width="1080" height="1920" sizes="75vw" data-pf-type="Image4" class="sc-lmUbDS jhRUAf pf-57_ pf-image-1 pf-lg-hide pf-md-hide" store="[object Object]"/></div></div></div></div></div></div></div></div><script>
+    !function(){
+      window.__pagefly_page_setting__ = {"pageTitle":"Homepage","pageType":"home","pageId":"847d385a-f906-4c4b-b3c4-9e723eea7d44","lazyLoad":true,"forceByPassGoogleLightHouse":false,"imageLazyLoad":true,"nativeImageLazyLoad":true,"useThemeJQ":false,"sectionRootType":"Section","trackingIDs":[]};
+      window.__pagefly_setting__&&(window.__pagefly_setting2__=window.__pagefly_setting__),window.__pagefly_setting__={"baseURL":"https://apps.pagefly.io","analyticsURL":"https://analytics.pagefly.io","isBackend":false,"cdnURL":"https://cdn.pagefly.io","pageflyVersion":"4.24.1","shopDomain":"v0prcs-sq.myshopify.com","elementData":{"pf-26_":{"hoverAction":0,"onHover":0,"clickAction":1,"navStyle":"none","paginationStyle":"none","slidesToShow":{"all":1,"laptop":1,"tablet":1,"mobile":1},"slidesToScroll":{"all":1,"laptop":1,"tablet":1,"mobile":1},"loading":"lazy","ratio":{"all":"original","laptop":"unset","tablet":"unset","mobile":"unset"},"disableSlideshow":true,"id":"7ea2576e-a637-4612-a766-95055f111c9c","_type":"MediaMain2"},"pf-27_":{"slidesToShow":{"all":5,"laptop":5,"tablet":5,"mobile":5},"slidesToScroll":{"all":1,"laptop":1,"tablet":1,"mobile":1},"displayPartialItems":{"all":false,"laptop":false,"tablet":false,"mobile":false},"navStyle":"none","listLayout":{"all":1,"laptop":1,"tablet":1,"mobile":1},"id":"a2576ea6-37c6-4267-a695-055f111c9c82","_type":"MediaList2"},"pf-29_":{"applyCondition":false,"collectionSource":"all","collectionIds":[],"tags":"","id":"6ea637c6-1267-4695-855f-111c9c8211cd","_type":"ProductBadge"},"pf-25_":{"listPosition":{"all":2,"laptop":2,"tablet":2,"mobile":2},"hoverAction":0,"onHover":0,"clickAction":0,"imageSource":"featured","id":"637ea257-6ea6-47c6-9267-6695055f111c","_type":"ProductMedia2"},"pf-37_":{"iconPos":"left","id":"67669505-5f11-4c9c-8211-cd9ef7a377a5","_type":"ProductATC2"}},"shopifyProxyPath":"/apps/pagefly"},window.__pagefly_setting2__&&(window.__pagefly_setting__=function _(d,b){let c={...d||{}};for(let a of Object.keys(b))b[a]instanceof Object&&(Array.isArray(b[a])&&c[a]?Object.assign(b[a],[...b[a],...c[a]]):Object.assign(b[a],_(c[a],b[a])));return Object.assign(c||{},b),c}(__pagefly_setting2__,__pagefly_setting__),delete window.__pagefly_setting2__),window.__pagefly_setting__.moneyFormat={{shop.money_format|json}}}();
+    </script>
+{% schema %}
+{
+  "name": "PageFly Home Page",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "For full configuration, [visit PageFly Editor](https://v0prcs-sq.myshopify.com/admin/apps/pagefly/editor?id=847d385a-f906-4c4b-b3c4-9e723eea7d44&type=home)."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "@app"
+    }
+  ]
+}
+{% endschema %}
